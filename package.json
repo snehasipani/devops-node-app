@@ -1,0 +1,27 @@
+{
+  "name": "devops-node-app",
+  "version": "1.0.0",
+  "description": "Cloud-native Node.js application for DevOps CI/CD pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "nodejs",
+    "devops",
+    "cicd",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.0"
+  }
+}
